@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>E Commerce Status</title>
+        <title>Auth Status</title>
         <style>
           body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
           .container { background: #f9fafb; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
@@ -34,11 +34,11 @@ app.get("/", (req, res) => {
       </head>
       <body>
         <div class="container">
-          <h1>E Commerce API</h1>
+          <h1>Auth API</h1>
           <p>Status: <span class="status">Online</span></p>
           <p>Server Time: ${new Date().toLocaleString()}</p>
             <div class="footer">
-            <p>© ${new Date().getFullYear()} E Commerce. All rights reserved.</p>
+            <p>© ${new Date().getFullYear()} Auth API. All rights reserved.</p>
           </div>
         </div>
       </body>
